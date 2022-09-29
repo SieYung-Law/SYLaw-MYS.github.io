@@ -1,4 +1,4 @@
-html{
+body{
 	background-color:#EFFFFD;
 	background: radial-gradient(#85F4FF, #42C2FF);
 
@@ -31,11 +31,11 @@ html{
 
 }
 .knockout {
-	margin-top: 71px;
+	margin-top: 51px;
 	vertical-align: middle;
 	text-align: center;
-	font-family: 'Pacifico', cursive;
-	font-size:35pt;
+	/*font-family: 'Pacifico', cursive;
+	font-size:35pt;*/
 	color: blue;
 	color: #fff;
 	background: linear-gradient(110deg, #FFF5E4 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #ffeead 34%);  /*#7FBCD2*/
@@ -48,7 +48,14 @@ html{
 		-webkit-animation: Gradient 15s ease infinite;
 		-moz-animation: Gradient 5s ease infinite;
 }
-
+h1 {
+	font-size: 60pt;
+	font-family: 'Sacramento', cursive;
+  }
+.pro {
+	font-size: 25pt;
+	font-family: 'Montserrat', sans-serif;
+}
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 30% 50%
