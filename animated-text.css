@@ -1,6 +1,6 @@
 html{
-	background-color:#ff6f69;
-	background: radial-gradient(#ff6f69, #ff8b87);
+	background-color:#EFFFFD;
+	background: radial-gradient(#85F4FF, #42C2FF);
 
 /*	background-image:url('https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1479854258%2Fkahaluu-bay-kona-big-island-hawaii-WRLDSNST1122.jpg%3Fitok%3DSFMX3uUf&w=800&q=85');
 	background-repeat: no-repeat;
@@ -8,9 +8,9 @@ html{
 	background-position:50% 50%;*/
 }
 
-.border{
-	padding: 5px;
-		background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+.border{   /* in order to pick out a certain class, we have to use (.) before the class*/
+	padding: 1px;
+	background: linear-gradient(110deg, #FFF5E4 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #ffeead 34%);
 	background-size: 400% 400%;
 	height: 400px;
 	background-position: 25% 50%;
@@ -20,25 +20,25 @@ html{
 .inner-cutout{
 	padding: 40px 0;
 	display: block;
-	background-color:#ff6f69;/*#ff6f69*/
+	background-color:#EFFFFD;/*#ff6f69*/
 		
 	margin: 2%;
 	padding-bottom: 40px;
 	height: 300px;
-	background: radial-gradient(#ff6f69, #ff8b87);
+	background: radial-gradient(#85F4FF, #42C2FF); /*(#7FBCD2, #A5F1E9, #E1FFEE, #FFEEAF)+ (EFFFFD,B8FFF9,85F4FF,42C2FF,88d8b0)*/
 	 background-size: 300%;
 	background-position:50% 50%;
 
 }
 .knockout {
-	
+	margin-top: 71px;
 	vertical-align: middle;
 	text-align: center;
 	font-family: 'Pacifico', cursive;
-	font-size:50pt;
+	font-size:35pt;
 	color: blue;
 	color: #fff;
-	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #88d8b0 34%);
+	background: linear-gradient(110deg, #FFF5E4 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #ffeead 34%);  /*#7FBCD2*/
 	background-size: 400%;
 	 -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -66,10 +66,11 @@ html{
 
 .main{
 	width: 500px;
-	height: 800px;
-	margin-left: 40%;
+	height: 100px;
+	margin-left: 30%;
 	margin-right:40%;
 	margin-top: 10%;
+	
 }
 
 
