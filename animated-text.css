@@ -1,7 +1,14 @@
 body{
+	font-family: 'Merriweather', serif;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+.top-container{
 	background-color:#EFFFFD;
 	background: radial-gradient(#85F4FF, #42C2FF);
-
+	padding-top: 1px;
 /*	background-image:url('https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1479854258%2Fkahaluu-bay-kona-big-island-hawaii-WRLDSNST1122.jpg%3Fitok%3DSFMX3uUf&w=800&q=85');
 	background-repeat: no-repeat;
     background-size: 100%;
@@ -21,15 +28,14 @@ body{
 	padding: 40px 0;
 	display: block;
 	background-color:#EFFFFD;/*#ff6f69*/
-		
 	margin: 2%;
 	padding-bottom: 40px;
 	height: 300px;
 	background: radial-gradient(#85F4FF, #42C2FF); /*(#7FBCD2, #A5F1E9, #E1FFEE, #FFEEAF)+ (EFFFFD,B8FFF9,85F4FF,42C2FF,88d8b0)*/
-	 background-size: 300%;
+	background-size: 300%;
 	background-position:50% 50%;
-
 }
+
 .knockout {
 	margin-top: 51px;
 	vertical-align: middle;
@@ -41,20 +47,55 @@ body{
 	background: linear-gradient(110deg, #FFF5E4 33%, rgba(0, 0, 0, 0) 33%), linear-gradient(110deg, #C5E7D7 34%, #ffeead 34%);  /*#7FBCD2*/
 	background-size: 400%;
 	 -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  	 -webkit-background-clip: text;
 }
+
 .knockout{
 		animation: Gradient 5s ease infinite;
 		-webkit-animation: Gradient 15s ease infinite;
 		-moz-animation: Gradient 5s ease infinite;
 }
+
 h1 {
-	font-size: 60pt;
+	font-size: 4.75rem; /* need 60pt// 16px = 100% = 1em */
 	font-family: 'Sacramento', cursive;
-  }
+ }
 .pro {
-	font-size: 25pt;
+	font-size: 2rem;
 	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF;
+	font-weight: normal;
+	font-size: 2.5rem;
+}
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #11999E;
+	font-weight: normal;
+}
+p{
+	color:#fff;
+}
+img{
+	max-width: 25%;
+	height: auto;
+	border-radius: 50%;
+
+}
+.CV-pic{
+	margin-top: 10%;
+}
+/*.color-overlay{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: red;
+	opacity: .7;
+	display:inline-block;
+	position:absolute;*/
+	
 }
 @-webkit-keyframes Gradient {
 	0% {
@@ -69,15 +110,37 @@ h1 {
 	
 }
 
-
-
 .main{
 	width: 500px;
-	height: 100px;
+	height: 500px;
 	margin-left: 30%;
 	margin-right:40%;
 	margin-top: 10%;
-	
 }
 
+.middle-container{
+	margin: 100px auto 0 auto;
+	width: 700px;
+	height: 1700px;
+	background: #000;
+}
 
+.skill-row{
+	text-align: left;
+	line-height: 2;
+}
+.machine-learning{
+	float:left;
+	margin-right: 40px;
+	filter: drop-shadow(8px 8px 10px #42C2FF);
+}
+.Front-end{
+	float:right;
+	margin-left: 40px;
+	filter: drop-shadow(8px 8px 10px #42C2FF);
+}
+
+.bottom-container{
+	background: #000;
+	
+}
