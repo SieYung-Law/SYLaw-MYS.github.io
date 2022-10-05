@@ -102,41 +102,45 @@ a{
   }
 
 
-/*.color-overlay{
-	width: 100px;
-	height: 100px;
+.color-overlay{
+	margin: auto;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
-	background: red;
-	opacity: .7;
-	display:inline-block;
-	position:absolute;
+	background: #85F4FF;
+	opacity: .9;
+	display: flex;
+	justify-content: center;
 	}
-	*/
 
 .middle-container{
 	margin: 10% auto 0 auto;
 	width: 50%;
 }
 
-img{
-	max-width: 25%;
+.CV-pic{
+	max-width: 95%;
 	height: auto;
 	border-radius: 50%;
-
-}
-.CV-pic{
-	margin-top: 0;
+	display: block;
+	margin: auto;
 }
 .skill-row{
 	text-align: left;
 	line-height: 2;
 }
 .machine-learning{
+	max-width: 25%;
+	height: auto;
+	border-radius: 50%;
 	float:left;
 	margin-right: 40px;
 	filter: drop-shadow(8px 8px 10px #42C2FF);
 }
 .Front-end{
+	max-width: 25%;
+	height: auto;
+	border-radius: 50%;
 	float:right;
 	margin-left: 40px;
 	filter: drop-shadow(8px 8px 10px #42C2FF);
