@@ -82,7 +82,6 @@ h2 {
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	color: #11999E;
-	font-weight: normal;
 	padding-bottom: 10px;
 }
 p {
@@ -155,7 +154,7 @@ a{
 .bottom-container{
 	background: radial-gradient(#85F4FF, #42C2FF);
 	padding: 50px 0 20px;
-	margin-top: 5%;
+	margin-top: 8%;
 }
 
 @-webkit-keyframes Gradient {
@@ -184,7 +183,7 @@ a{
   
 
 .btn {
-	background: #11cdd4;
+	background: #85F4FF;
 	background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
 	background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
 	background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
